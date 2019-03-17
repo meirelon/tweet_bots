@@ -16,7 +16,8 @@ Save a twitter bot model locally
 ```
 python tweetBot.py --twitter_handle=elonmusk
 ```
-Inside Python Terminal
+
+### Inside Python Terminal
 ```
 from tweetBot import tweetBot
 bot = tweetBot('elonmusk')
