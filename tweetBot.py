@@ -6,7 +6,7 @@ from twitter_scraper import get_tweets
 import markovify
 
 def tweetBot(twitter_handle):
-    tweets = '\n'.join([t['text'] for t in get_tweets(twitter_handle, pages=25)])
+    tweets = '\n'.join([t['text'] for t in get_tweets(twitter_handle, pages=15)])
     return markovify.Text(tweets)
 
 def main(argv=None):
